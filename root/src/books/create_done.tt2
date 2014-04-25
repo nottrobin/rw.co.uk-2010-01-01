@@ -1,0 +1,19 @@
+[%- USE Dumper(Indent=1) -%]
+
+[%- META title = 'Book Created' %]
+
+[%- 
+    # Get the last name of the first author;
+    authors = book.authors;
+    author = authors.first.last_name;
+-%]
+
+<p>Added book '[% book.title %]' by [% author %] with a rating of [% book.rating %].</p>
+
+<a href="[% Catalyst.uri_for('/books/list') %]">Return to list</a></p>
+
+<pre>
+Dump f the 'book' variable:
+[% Dumper.dump(book) %]
+</pre>
+

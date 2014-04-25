@@ -1,0 +1,73 @@
+/*  Reset */
+html, body, a, h1, h2, h3, h4, h5, h6, p, ul, ol, li {margin: 0; padding: 0; border: none; font-size: 100%; font-weight: normal; text-decoration: none;}
+ul, li {list-style-type: none;}
+
+/* Main styles */
+body {
+    padding: 5px 10px 5px 10px;
+    font-family: calibri, sans-serif;
+    font-size: 100%;
+}
+header, footer, aside, article, section {display: block;}
+footer {
+    margin-top: 20px;
+    border-top: 5px solid black;
+    font-size: 80%;
+}
+article, aside {
+    margin: 20px;
+    padding: 0 0 0 10px;
+}
+aside {border: 2px solid black;}
+article {border-left: 2px solid black;}
+aside {
+    float: right;
+    width: 300px;
+    background-color: #fff;
+}
+
+header h1 {margin-bottom: 5px;}
+header h2 {
+    margin-top: 5px;
+    font-size: 100%;
+    color: #555;
+}
+header {margin-bottom: 5px;}
+section header h2, article header h2 {font-size: 90%;}
+section section header h2, section article header h2, article section h2, article article h2 {font-size: 80%;}
+section section section header h2, section section article header h2, section article section h2, section article article h2, article section section header h2, article section article header h2, article article section h2, article article article h2  {font-size: 70%;}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: cambria, serif;
+    margin: 20px 0 10px 0;
+    font-weight: bold;
+}
+h1 {font-size: 200%;}
+h2, section h1, article h1 {font-size: 170%;}
+h3, section h2, article h2, section section h1, section article h1, article section h1, article article h1 {font-size: 150%;}
+h4, section h3, article h3, section section h2, section article h2, article section h2, article article h2, section section section h1, section section article h1, section article section h1, section article article h1, article section section h1, article section article h1, article article section h1, article article article h1 {font-size: 130%;}
+h5, section h4, article h4, section section h3, section article h3, article section h3, article article h3, section section section h2, section section article h2, section article section h2, section article article h2, article section section h2, article section article h2, article article section h2, article article article h2 {font-size: 115%;}
+h6, section h5, article h5, section section h4, section article h4, article section h4, article article h4, section section section h3, section section article h3, section article section h3, section article article h3, article section section h3, article section article h3, article article section h3, article article article h3 {font-size: 100%;}
+
+p {margin: 10px 0 10px 0;}
+
+small {
+    font-size: 70;
+    color: #333;
+}
+
+a {
+    color: #000;
+    border-bottom: 1px dotted black;
+    text-decoration: none;
+}
+a:visited {color: #555;}
+a:hover {
+    color: #555;
+    border: none;
+}
+
+li {
+	list-style-type: circle;
+	margin: 10px 0 10px 20px;
+}

@@ -1,0 +1,8 @@
+Options +ExecCGI
+AddHandler cgi-script cgi
+AddHandler cgi-script pl
+
+RewriteEngine On
+#RewriteCond %{REQUEST_URI} !^/?script/robinapp_fastcgi.pl
+#RewriteRule ^(.*)$ script/robinapp_cgi.pl/$1 [PT,L]
+
