@@ -1,0 +1,25 @@
+body {
+    background-color: green;
+    background-image: url('mindmap.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    text-align: center;
+}
+body * {text-align: left;}
+header {
+    height: 200px;
+    background-color: transparent;
+}
+section#main {
+    display: inline-block;
+    width: 40em;
+    background-color: white;
+    padding: 1em;
+}
+section#right {
+    display: inline-block;
+    background-color: white;
+    width: 10em;
+    padding: 1em;
+}
