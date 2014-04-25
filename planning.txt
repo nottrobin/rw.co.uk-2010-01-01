@@ -1,7 +1,0 @@
-Sections for an online CV:
-
-- Summary
-- Portfolio (of sites I've worked on - include Endsleigh.co.uk, Bennetts.co.uk, Dreams.co.uk)
-- Employment history
-- Qualifications
-- Interests and mission
